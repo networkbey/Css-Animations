@@ -1,5 +1,7 @@
 body{
-  background-color:gainsboro;
+  background-image: url(resim.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 *{
@@ -53,7 +55,7 @@ transition: 1s;
 .codes1{
   width: 500px;
   height: 310px;
-  background-color: bisque;
+  background-color:rgb(60, 60, 60, 0.7);
   margin: auto;
   margin-top: 20px;
   border-radius: 20px;
@@ -62,4 +64,43 @@ transition: 1s;
 }
 p{
   font-variant: small-caps
+}
+
+
+
+.box2{
+  width:700px;
+  height: 400px;
+  background-color:rgb(60, 60, 60, 0.2);
+  margin-left: 32%;
+  margin-top: 35px;
+  border-radius:20px;
+    box-shadow: 4px 9px 10px black;
+    display: flex;
+
+}
+.animation2{
+   width: 150px;
+   height: 150px;
+  background-color: black;
+margin: auto;
+border-radius: 100px;
+transition: 1s;
+
+}
+
+
+.animation2:hover{
+  background-color: rgb(60, 60, 60);
+  height: 20px;
+}
+.codes2{
+  width: 500px;
+  height: 310px;
+  background-color:rgb(60, 60, 60, 0.7);
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding-left: 20px;
+
 }
