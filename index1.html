@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>Css Animation</title>
+
+<style>
+  body{
+    background-image: url(resim.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  *{
+    margin:0;
+    padding:0;
+  }
+
+  .navbar{
+    width:100%;
+    height:auto;
+    background-color:rgba(120, 120, 120, 0.4);
+    border-radius:30px;
+    box-shadow: 4px 9px 10px black;
+
+
+  }
+
+  h1{
+    text-align:center;
+    font-family: "Gill Sans", sans-serif;
+    text-shadow: 6px 6px 10px red;
+
+  }
+  .box1{
+    width:700px;
+    height: 400px;
+    background-color:rgb(60, 60, 60, 0.2);
+    margin-left: 32%;
+    margin-top: 35px;
+    border-radius:20px;
+      box-shadow: 4px 9px 10px black;
+      display: flex;
+
+  }
+
+  .animation1{
+     width: 150px;
+     height: 150px;
+    background-color: black;
+  margin: auto;
+  border-radius: 100px;
+  transition: 1s;
+
+  }
+
+
+  .animation1:hover{
+    background-color: rgb(60, 60, 60);
+    transform: translateY(-100px);
+  }
+
+  .codes1{
+    width: 500px;
+    height: 310px;
+    background-color:rgb(60, 60, 60, 0.7);
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+
+  }
+  p{
+    font-variant: small-caps
+  }
+
+
+
+  .box2{
+    width:700px;
+    height: 400px;
+    background-color:rgb(60, 60, 60, 0.2);
+    margin-left: 32%;
+    margin-top: 35px;
+    border-radius:20px;
+      box-shadow: 4px 9px 10px black;
+      display: flex;
+
+  }
+  .animation2{
+     width: 150px;
+     height: 150px;
+    background-color: black;
+  margin: auto;
+  border-radius: 100px;
+  transition: 1s;
+  animation: mymove 2s;
+
+  }
+  @keyframes mymove {
+  0%   {top: 0px; background: red; width: 100px;}
+  100% {top: 200px; background: yellow; width: 300px;}
+}
+
+  .codes2{
+    width: 500px;
+    height: 310px;
+    background-color:rgb(60, 60, 60, 0.7);
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+
+  }
+
+ </style>
+</head>
+
+
+<body>
+
+  <div class="navbar">
+    <h1>
+      Css Animations And Codes
+    </h1>
+  </div>
+  <div class="box1">
+  <div class="animation1"></div>
+
+
+  </div>
+  <div class="codes1"><p>
+
+    .animation1{<br/>
+       width: 150px;<br/>
+       height: 150px;<br/>
+      background-color: black;<br/>
+    margin: auto;<br/>
+    border-radius: 100px;<br/>
+    transition: 1s;<br/>
+
+    }<br/>
+
+
+    .animation1:hover{<br/>
+      background-color: rgb(60, 60, 60);<br/>
+      transform: translateY(-100px);<br/>
+    }
+  }</p></div>
+
+
+  <div class="box2">
+  <div class="animation2"></div>
+  </div>
+  <div class="codes2"><p>
+    .animation2{<br/>
+       width: 150px;<br/>
+       height: 150px;<br/>
+      background-color: black;<br/>
+    margin: auto;<br/>
+    border-radius: 100px;<br/>
+    transition: 1s;<br/>
+    animation: mymove 2s;<br/>
+
+    }<br/>
+    @keyframes mymove {<br/>
+    0%   {top: 0px; background: red; width: 100px;}<br/>
+    100% {top: 200px; background: yellow; width: 300px;}<br/>
+  }
+    <a href="index2.html">Next Animations</a>
+
+  </p></div>
+
+  </body>
+  </html>
